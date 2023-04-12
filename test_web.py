@@ -14,7 +14,7 @@ class TestWebdriver:
         self.driver.quit()
 
     def test_web(self):
-        self.driver.find_element(By.CSS_SELECTOR, '#kw').send_keys('霍格沃兹测试学院')
+        self.driver.find_element(By.CSS_SELECTOR, '#kw').send_keys('baidu')
         self.driver.find_element(By.CSS_SELECTOR, '#su').click()
         time.sleep(1)
         # 滚动到页面底部
