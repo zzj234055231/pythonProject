@@ -3,7 +3,7 @@ import time
 from selenium import webdriver
 
 
-class TestWebdriver:
+class TestSelenium:
 
     def setup(self):
         self.driver = webdriver.Edge()
